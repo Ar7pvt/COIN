@@ -1,7 +1,7 @@
 import './Listcoin.css';
 
 import React from 'react'
-import ReactDOM from 'react-dom'
+//import ReactDOM from 'react-dom'
 
 import coinLocatorImg from '../../assets/img/Form/artboard1.png'
 import openFolderImg from '../../assets/img/Form/openFolder.png'
@@ -68,7 +68,10 @@ export const Listcoin =(event) =>{
         setChartlink(event.target.value);
     }
 
-    const onChangeSwaplink = (rooent) => {
+    // const onChangeSwaplink = (rooent) => {
+    //     setSwaplink(event.target.value);
+    // }
+    const onChangeSwaplink = (event) => {
         setSwaplink(event.target.value);
     }
     
